@@ -1,0 +1,8 @@
+{
+  "name": "mmt-referrals-site",
+  "version": "1.0.0",
+  "description": "MMT referrals landing page",
+  "scripts": {
+    "start": "npx --yes serve -s . -l ${PORT:-3000}"
+  }
+}
