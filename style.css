@@ -394,10 +394,11 @@ a, button, input, textarea {
 .hero__comma {
   display: inline-block;
   font-family: Georgia, 'Times New Roman', serif;
-  font-weight: 400;
-  font-size: 0.85em;
-  transform: translateY(0.05em);
-  margin: 0 0.02em 0 -0.06em;
+  font-weight: 700;
+  font-size: 1.15em;
+  transform: translateY(0.12em);
+  margin: 0 0.04em 0 -0.02em;
+  line-height: 1;
 }
 
 .hero__line--white {
