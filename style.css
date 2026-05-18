@@ -395,10 +395,17 @@ a, button, input, textarea {
   display: inline-block;
   font-family: Georgia, 'Times New Roman', serif;
   font-weight: 700;
-  font-size: 1.15em;
-  transform: translateY(0.12em);
-  margin: 0 0.04em 0 -0.02em;
+  font-size: 1.05em;
+  /* Override the parent gradient text-clip so the comma is actually visible */
+  -webkit-text-fill-color: var(--orange-bright);
+  color: var(--orange-bright);
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  transform: translateY(0.1em);
+  margin: 0 0.05em 0 0;
   line-height: 1;
+  filter: drop-shadow(0 4px 18px rgba(250, 163, 33, 0.5));
 }
 
 .hero__line--white {
