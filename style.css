@@ -790,6 +790,13 @@ a, button, input, textarea {
   margin-bottom: var(--space-3);
   color: #fff;
   letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .reward-card h3 {
+    font-size: 1.2rem;
+  }
 }
 
 .reward-card p {
